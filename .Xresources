@@ -1,0 +1,71 @@
+Xcursor.size: 16
+Xcursor.theme: Elementary
+
+Xft.antialias: 1
+Xft.autohint: 1
+Xft.hintstyle: hintslight
+
+xterm*termName: xterm-256color
+
+xterm*faceName: BlexMono Nerd Font
+xterm*faceSize: 12
+xterm*utf8: 1 
+xterm*locale: 1
+XTerm.vt100.scaleHeight: 0.9
+
+xterm*background: #2e3440
+xterm*foreground: #d8dee9
+xterm*cursorColor: #d8dee9
+xterm*pointerColorBackground: #2e3440
+xterm*pointerColorForeground: #d8dee9
+
+! Black
+xterm*color0: #3b4252
+xterm*color8: #4c566a
+
+! Red
+xterm*color1: #bf616a
+xterm*color9: #bf616a
+
+! Green
+xterm*color2: #a3be8c
+xterm*color10: #a3be8c
+
+! Yellow
+xterm*color3: #ebcb8b
+xterm*color11: #ebcb8b
+
+! Blue
+xterm*color4: #81a1c1
+xterm*color12: #81a1c1
+
+! Magenta
+xterm*color5: #b48ead
+xterm*color13: #b48ead
+
+! Cyan
+xterm*color6: #88c0d0
+xterm*color14: #8fbcbb
+
+! White
+xterm*color7: #e5e9f0
+xterm*color15: #eceff4
+
+! Dim colors
+xterm*color16: #373e4d
+xterm*color17: #94545d
+xterm*color18: #809575
+xterm*color19: #b29e75
+xterm*color20: #68809a
+xterm*color21: #8c738c
+xterm*color22: #6d96a5
+xterm*color23: #aeb3bb
+
+! Enable <C-S-c> and <C-S-v> for copy/pasting
+xterm*VT100.translations: #override \
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.saveLines: 4096
+
